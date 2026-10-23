@@ -17,18 +17,18 @@ brew tap qbus00/crabripper
 brew install crabripper
 ```
 
-The formula builds crabripper from source with the Rust toolchain (pulled in
-automatically as a build-only dependency), so it works on both Apple Silicon and
-Intel macOS, and on Linuxbrew.
+The formula pours a **prebuilt binary** for your platform — no Rust toolchain and
+no compiling. Supported:
+
+| Platform | Binary |
+|---|---|
+| Apple Silicon macOS | `crabripper-macos-arm64` |
+| Intel macOS | `crabripper-macos-x86_64` |
+| x86-64 Linux (static musl) | `crabripper-linux-amd64` |
+| aarch64 Linux (static musl) | `crabripper-linux-arm64` |
 
 ## Upgrade
 
 ```sh
 brew update && brew upgrade crabripper
-```
-
-## Latest `main`
-
-```sh
-brew install --HEAD qbus00/crabripper/crabripper
 ```
