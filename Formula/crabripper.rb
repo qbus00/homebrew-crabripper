@@ -5,23 +5,23 @@ class Crabripper < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qbus00/crabripper/releases/download/v0.1.7/crabripper-macos-arm64.tar.gz"
-      sha256 "0eab828867b0ca6c9e312fe914ff94d76e34d08d66f30b7c90e7e1c2d80f6acf"
+      url "https://github.com/qbus00/crabripper/releases/download/v0.1.8/crabripper-macos-arm64.tar.gz"
+      sha256 "62a48b2f15c79be64a987264f7456f0404ee842d778b21105b13e056b7a57078"
     end
     on_intel do
-      url "https://github.com/qbus00/crabripper/releases/download/v0.1.7/crabripper-macos-x86_64.tar.gz"
-      sha256 "59c7848573d005968ac882366850e2d243deaee62c9b467be66f85f36c74dae9"
+      url "https://github.com/qbus00/crabripper/releases/download/v0.1.8/crabripper-macos-x86_64.tar.gz"
+      sha256 "de4d1c9eba6d96fde2887ede879ac629cf9adb0c576243fc3f6b94abda233584"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/qbus00/crabripper/releases/download/v0.1.7/crabripper-linux-arm64.tar.gz"
-      sha256 "6b90617ce80d078dd87148efb04a27a923e574a487d3c41faeee45991eebe187"
+      url "https://github.com/qbus00/crabripper/releases/download/v0.1.8/crabripper-linux-arm64.tar.gz"
+      sha256 "14410765e6a2f07d7b9f25ac52e2c08a0940e17a77e3e139d5ab2c0c003d9170"
     end
     on_intel do
-      url "https://github.com/qbus00/crabripper/releases/download/v0.1.7/crabripper-linux-amd64.tar.gz"
-      sha256 "191a4c003de1b9b2ede2b25df8f8c0f9392a00724057484a7beea81c43a2d779"
+      url "https://github.com/qbus00/crabripper/releases/download/v0.1.8/crabripper-linux-amd64.tar.gz"
+      sha256 "82ab8c4154da26e30087a3ee99038e75d578f111ab6767e0873f0cbc05e50f7d"
     end
   end
 
